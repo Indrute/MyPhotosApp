@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D5B3E3B1F27BD19004802AB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B3E3A1F27BD19004802AB /* SecondView.swift */; };
 		6DE5ABB71F0BFB980011E1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5ABB61F0BFB980011E1DB /* AppDelegate.swift */; };
 		6DE5ABB91F0BFB980011E1DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5ABB81F0BFB980011E1DB /* ViewController.swift */; };
 		6DE5ABBB1F0BFB980011E1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE5ABBA1F0BFB980011E1DB /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D5B3E3A1F27BD19004802AB /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondView.swift; path = ../SecondView.swift; sourceTree = "<group>"; };
 		6DE5ABB31F0BFB980011E1DB /* MyPhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE5ABB61F0BFB980011E1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE5ABB81F0BFB980011E1DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DC563BE1F36373500AF4AC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DE5ABB81F0BFB980011E1DB /* ViewController.swift */,
+				6D5B3E3A1F27BD19004802AB /* SecondView.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6DC563BF1F3637E300AF4AC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DC563C11F363A6800AF4AC0 /* Ext1 */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6DC563C01F36381B00AF4AC0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		6DC563C11F363A6800AF4AC0 /* Ext1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Ext1;
+			sourceTree = "<group>";
+		};
 		6DE5ABAA1F0BFB980011E1DB = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +108,12 @@
 		6DE5ABB51F0BFB980011E1DB /* MyPhotosApp */ = {
 			isa = PBXGroup;
 			children = (
-				6DE5ABB61F0BFB980011E1DB /* AppDelegate.swift */,
-				6DE5ABB81F0BFB980011E1DB /* ViewController.swift */,
+				6DC563C01F36381B00AF4AC0 /* Components */,
+				6DC563BF1F3637E300AF4AC0 /* Extensions */,
+				6DC563BE1F36373500AF4AC0 /* Controllers */,
 				6DE5ABBA1F0BFB980011E1DB /* Assets.xcassets */,
 				6DE5ABBC1F0BFB980011E1DB /* Main.storyboard */,
+				6DE5ABB61F0BFB980011E1DB /* AppDelegate.swift */,
 				6DE5ABBF1F0BFB980011E1DB /* Info.plist */,
 			);
 			path = MyPhotosApp;
@@ -195,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5B3E3B1F27BD19004802AB /* SecondView.swift in Sources */,
 				6DE5ABB91F0BFB980011E1DB /* ViewController.swift in Sources */,
 				6DE5ABB71F0BFB980011E1DB /* AppDelegate.swift in Sources */,
 			);
@@ -395,6 +431,7 @@
 				6DE5ABCF1F0BFB980011E1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DE5ABD01F0BFB980011E1DB /* Build configuration list for PBXNativeTarget "MyPhotosAppTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +440,7 @@
 				6DE5ABD21F0BFB980011E1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
